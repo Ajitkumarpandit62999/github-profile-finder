@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub profile finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+    <style>
+        .loader {
+            display: none;
+        }
+
+        .loader .show-loader {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body class="bg-green-300">
+
+    <!-- header section starts here -->
+
+    <div class="h-52 bg-orange-400 w-full flex justify-center flex-col items-center">
+
+        <h1 class="text-center text-3xl font-semibold">GitHub Profile finder</h1>
+
+
+        <div
+            class="text-center mt-6 h-10 flex justify-center items-center w-[50%] max-xl:w-[70%] bg-slate-200 rounded-lg">
+            <input class=" search-input w-full mx-10 outline-none bg-slate-200 " type="text"
+                placeholder="Enter your username">
+            <button class=" search-btn text-xl  p-4 font-medium">Search</button>
+        </div>
+
+    </div>
+
+     <!-- header section ends here -->
+
+    <p class="loader">Loading Data ! please Wait</p>
+
+    <!-- body section starts here -->
+
+    <div
+        class=" bg-gradient-to-r from-teal-400 to-yellow-200 h-[25rem] w-[25%] max-xl:w-[80%] flex justify-center items-center mx-auto mt-9 p-7 rounded-lg border-black border-2">
+
+        <div class="github-profile-details h-full w-full  flex justify-center flex-col items-center ">
+
+            <img class="h-52 w-52 object-cover rounded-full "
+                src="https://i.pinimg.com/474x/bc/f0/27/bcf0272b061414169e8d2e21659223c7.jpg" alt=${login}>
+            <p class="username mt-4 font-bold font-mono"> <span>Username :-</span> Ninja hathori</p>
+
+            <p class="repos font-semibold font-mono "> Repos : 35</p>
+
+            <p class="followers font-semibold font-mono "> Followers : 102</p>
+
+            <p class="following font-semibold font-mono "> Following : 5</p>
+
+            <a class="font-mono" href="https://youtu.be/iHdVGY137lc?si=_YcCEi3VadA1zcNl" target="_blank"> GitHub link 👈
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <!-- body section ends here -->
+
+</body>
+
+</html>
